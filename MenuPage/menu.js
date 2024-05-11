@@ -1,0 +1,7 @@
+document.getElementById("Chicken-65-add-to-cart-container").addEventListener("click", () => {
+    document.getElementById("Chicken-65-add-to-cart-container").innerHTML = '<div id="Chicken-65-remove-from-cart-container"><button id="Chicken-65-remove-from-cart" class="remove-from-cart" style="display: flex; align-items: center; justify-content: center; position: relative; left: 30%;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ban"><circle cx="12" cy="12" r="10"/><path d="m4.9 4.9 14.2 14.2"/></svg></button></div>'
+});
+
+document.getElementById("dum-biryani-add-to-cart-container").addEventListener("click", () => {
+    document.getElementById("dum-biryani-add-to-cart-container").innerHTML = '<div id="dum-biryani-remove-from-cart-container"><button id="dum-biryani-remove-from-cart" class="remove-from-cart" style="display: flex; align-items: center; justify-content: center; position: relative; left: 30%;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ban"><circle cx="12" cy="12" r="10"/><path d="m4.9 4.9 14.2 14.2"/></svg></button></div>'
+});
